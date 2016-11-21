@@ -15,10 +15,10 @@
      * You should have received a copy of the GNU General Public License
      * along with this program.  If not, see <http://www.gnu.org/licenses/>.
      *
-     * @file_name           vimeo.php
+     * @file_name           clip_filter.php
      * @author              Christopher Hranj <christopher.hranj@gmail.com>
-     * @date_created        10/16/15
-     * @date_last_modified  10/26/15
+     * @date_created        10/16/16
+     * @date_last_modified  11/20/16
      * @php_version         5.5.9
      * @description         Analyze 'clips.csv' and output to 'valid.csv' and 'invalid.csv'.
      */

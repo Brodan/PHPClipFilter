@@ -1,5 +1,3 @@
-Copyright (C) 2016  Christopher Hranj
-
 Notes:
     This updated approach was used to demonstrate an understanding of object-oriented programming concepts and code re-usability.
     Clips are now stored in Clip objects.
@@ -11,4 +9,4 @@ To run vimeo.php:
     Ensure that clips.csv is in the same directory as vimeo.php.
     Ensure you are using PHP 5 to run this file. More specifically, this was written using PHP 5.5.9.
 
-Running vimeo.php will create two new files in the same directory: valid.csv and invalid.csv.
+Running clip_filter.php will create two new files in the same directory: valid.csv and invalid.csv.
