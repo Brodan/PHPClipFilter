@@ -1,12 +1,10 @@
-Notes:
-    This updated approach was used to demonstrate an understanding of object-oriented programming concepts and code re-usability.
-    Clips are now stored in Clip objects.
-    The CustomFilter class, which extends the FilterIterator class, was re-designed to be agnostic to the type of items it is filtering.
-    The CustomFilter can now accept a list of filters and tests to see if every item being iterated over passing every filter in the list.
-    Additionally, the ClipHandler is used to handle building Clip objects and passing a list of Clips to the CustomFilter. 
+# PHPClipFilter
+This repository contains my solution to a coding excercise. 
 
-To run vimeo.php:
-    Ensure that clips.csv is in the same directory as vimeo.php.
-    Ensure you are using PHP 5 to run this file. More specifically, this was written using PHP 5.5.9.
-
-Running clip_filter.php will create two new files in the same directory: valid.csv and invalid.csv.
+# Excercise
+Attached is a csv file: clips.csv. Your job is to write code that will load in clips.csv and analyze the data against the rules listed below. Your code should output the results into two files; valid.csv will contain a list of clip_ids's that passed the tests and invalid.csv will contain a list of clip_id's that failed the tests. Requirements are to use PHP, utilize the SPL FilterIterator, and handle exceptions if a file cannot be read in or written to
+ 
+Rules:  
+1. The clip must be public (privacy == anybody)  
+2. The clip must have over 10 likes and over 200 plays  
+3. The clip title must be under 30 characters
