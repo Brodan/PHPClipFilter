@@ -1,0 +1,14 @@
+Copyright (C) 2016  Christopher Hranj
+
+Notes:
+    This updated approach was used to demonstrate an understanding of object-oriented programming concepts and code re-usability.
+    Clips are now stored in Clip objects.
+    The CustomFilter class, which extends the FilterIterator class, was re-designed to be agnostic to the type of items it is filtering.
+    The CustomFilter can now accept a list of filters and tests to see if every item being iterated over passing every filter in the list.
+    Additionally, the ClipHandler is used to handle building Clip objects and passing a list of Clips to the CustomFilter. 
+
+To run vimeo.php:
+    Ensure that clips.csv is in the same directory as vimeo.php.
+    Ensure you are using PHP 5 to run this file. More specifically, this was written using PHP 5.5.9.
+
+Running vimeo.php will create two new files in the same directory: valid.csv and invalid.csv.
